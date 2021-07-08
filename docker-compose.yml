@@ -24,7 +24,7 @@ services:
     - ./cert:/app/cert
 
   opentracing:
-    image: jaegertracing/all-in-one:0.9.0
+    image: jaegertracing/all-in-one:1.24.0
     container_name: opentracing
     restart: always
     ports:
